@@ -1,0 +1,2 @@
+let nothingIsAssignedtoThisVariable;
+console.log(nothingIsAssignedtoThisVariable);
