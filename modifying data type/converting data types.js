@@ -10,10 +10,14 @@ let numtoStr = 5;
 numtoStr = String(numtoStr);
 console.log(numtoStr, typeof(numtoStr));
 
-let StrtoNum = "Noor";
-StrtoNum = Number(StrtoNum);
-console.log(StrtoNum, typeof(StrtoNum));
+let strtoBool = "Noor";
+strtoBool = Boolean(strtoBool);
+console.log(strtoBool, typeof(strtoBool));
 
 let StrtoNum3 = "";
 StrtoNum3 = Number(StrtoNum3);
 console.log(StrtoNum3, typeof(StrtoNum3));
+
+let nullToNr = null;
+nullToNr = Number(nullToNr);
+console.log("null", nullToNr, typeof nullToNr);
