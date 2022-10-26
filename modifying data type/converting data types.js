@@ -21,3 +21,7 @@ console.log(StrtoNum3, typeof(StrtoNum3));
 let nullToNr = null;
 nullToNr = Number(nullToNr);
 console.log("null", nullToNr, typeof nullToNr);
+
+let num5 = 3;
+let num6 ="4";
+console.log(num5 + Number(num6));
