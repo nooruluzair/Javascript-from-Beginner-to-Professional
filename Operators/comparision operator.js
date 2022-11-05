@@ -10,3 +10,9 @@ let a = 5;
 let b = "5";
 console.log(a != b);  // checks for non equality loosely
 console.log(a !== b); //checks for non equality with type
+
+let c = 4;
+let d = 6;
+console.log(c > d);
+console.log(c < d); 
+console.log(d >= d);
