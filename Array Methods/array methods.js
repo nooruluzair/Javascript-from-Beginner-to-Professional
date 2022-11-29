@@ -11,10 +11,21 @@ nameOfCountries = ["Pakistan", "US", "Newzealand", "Australia"];
     //adding india after 2 index and deleting 0 names after adding
 nameOfCountries.splice(2,0, "India"); 
 console.log(nameOfCountries);
-nameOfCountries.splice(2,1,"England");//adding england after index 2 but before deleting 1 element that is india
+//adding england after index 2 but before deleting 1 element that is india
+nameOfCountries.splice(2,1,"England");
 console.log(nameOfCountries);
 
 let Newarray = nameOfCountries.concat(nameofcities); //    concatinating arrays
 console.log(Newarray);
-let Newarray1 = Newarray.concat("Mirpurkhas","Hyderabad","Sukkur"); //adding elemrnts into array through concat 
+////adding elemrnts into array through concat
+
+let Newarray1 = Newarray.concat("Mirpurkhas","Hyderabad","Sukkur");  
+console.log(Newarray1);
+
+// deleting last element 
+Newarray1.pop();
+console.log(Newarray1);
+
+//deleting first element
+Newarray1.shift();
 console.log(Newarray1);
