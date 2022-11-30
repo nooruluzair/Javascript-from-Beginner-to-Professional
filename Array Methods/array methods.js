@@ -29,3 +29,54 @@ console.log(Newarray1);
 //deleting first element
 Newarray1.shift();
 console.log(Newarray1);
+
+//deleting through index numbers
+// deleting from index 3 and four elements from index 3
+
+Newarray1.splice(3,4);
+console.log(Newarray1);
+
+//deleting one array.. one empty array on index 0
+
+delete Newarray1[0];
+console.log(Newarray1);
+
+//find an elemetnt in the array
+let ArrayofNumbers = [1,2,3,4,5,6,7,8];
+console.log(ArrayofNumbers);
+let findingarray = ArrayofNumbers.find (
+    function(e){
+        return e === 6
+    }
+);
+
+let findingarray1 = ArrayofNumbers.find (e => e === 10);
+
+console.log(findingarray);
+console.log(findingarray1);
+
+
+// findin an element of the particlar index
+
+let IndexofEight = ArrayofNumbers.indexOf(6);
+console.log(IndexofEight);
+
+let IndexofNonexistenceNumber = ArrayofNumbers.indexOf(10);
+console.log(IndexofNonexistenceNumber);
+
+// if you want to start finding from a particular index
+
+let startingfromIndexThree = ArrayofNumbers.indexOf(3, 7);
+console.log(startingfromIndexThree);
+
+// when we have to find the index of array which is present on multiple position in array
+
+let ArrayWithMultipleSameNumber = [4,7,2,5,7,8,,5,7,8,9,6,7];
+let findSevenOnLastIndex = ArrayWithMultipleSameNumber.lastIndexOf(7);
+console.log(findSevenOnLastIndex);
+
+// sorting the elements in the array
+
+let GirlNames = ["Noor", "Abeeha","Hafsa"];
+GirlNames.sort();
+
