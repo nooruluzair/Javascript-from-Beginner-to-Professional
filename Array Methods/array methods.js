@@ -77,6 +77,14 @@ console.log(findSevenOnLastIndex);
 
 // sorting the elements in the array
 
-let GirlNames = ["Noor", "Abeeha","Hafsa"];
+let GirlNames = ["Noor", "Abeeha","Hafsa","Ayesha", "Sidrah"];
 GirlNames.sort();
+console.log(GirlNames);
+
+//Reversing the elements in the array
+
+GirlNames.reverse();
+console.log(GirlNames);
+
+
 
