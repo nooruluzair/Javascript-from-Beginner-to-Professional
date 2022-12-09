@@ -21,8 +21,10 @@ console.log(ShoppingList);
 //Find and output the index value of Milk.
 let indexofmilk = ShoppingList.indexOf("Milk");
 console.log(indexofmilk);
-/*After Bananas, add Carrots and Lettuce.
-8. Create a new list containing Juice and Pop.
+
+//After Bananas, add Carrots and Lettuce.
+
+/*Create a new list containing Juice and Pop.
 9. Combine both lists, adding the new list twice to the end of the first list.
 10. Get the last index value of Pop and output it to the console.*/
 
